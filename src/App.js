@@ -1,4 +1,4 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 
 function App() {
@@ -26,8 +26,6 @@ function App() {
 
   return (
     <div>
-      <h2>Aprendiendo perri</h2>
-      <p>This is also visible!</p>
       <Expenses expenses={expenses} />
     </div>
   );
